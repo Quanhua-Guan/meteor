@@ -1,8 +1,3 @@
-
-
-(function () {
-
-
 LocalCollection._looksLikeObjectID = function (str) {
   return str.length === 24 && str.match(/^[0-9a-f]*$/);
 };
@@ -103,5 +98,3 @@ LocalCollection._idsMatchedBySelector = function (selector) {
 EJSON.addType("oid",  function (str) {
   return new LocalCollection._ObjectID(str);
 });
-
-})();

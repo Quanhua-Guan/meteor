@@ -1,6 +1,3 @@
-(function () {
-
-
 _.each(['STRING', 'MONGO'], function (idGeneration) {
   //
   // Set up a bunch of test collections
@@ -693,4 +690,3 @@ _.each(['STRING', 'MONGO'], function (idGeneration) {
   }
 
 });
-}) ();

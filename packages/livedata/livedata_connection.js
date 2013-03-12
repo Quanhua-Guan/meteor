@@ -1,4 +1,3 @@
-(function () {
 if (Meteor.isServer) {
   // XXX namespacing
   var Future = Npm.require(path.join('fibers', 'future'));
@@ -1338,4 +1337,3 @@ Meteor._LivedataConnection._allSubscriptionsReady = function () {
     });
   });
 };
-})();

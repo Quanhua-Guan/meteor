@@ -1,5 +1,3 @@
-(function () {
-
 // XXX type checking on selectors (graceful error if malformed)
 
 // LocalCollection: a set of documents that supports queries and modifiers.
@@ -941,4 +939,3 @@ LocalCollection._observeOrderedFromObserveChanges =
   suppressed = false;
   return handle;
 };
-})();
